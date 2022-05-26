@@ -1,0 +1,7 @@
+I think you make a bare repository on the remote side, 
+    %git init --bare 
+add the remote side as the push/pull tracker for your local repository 
+    %git remote add origin https://github.com/akicheng 
+and then locally you just say 
+    %git push origin master. 
+Now any other repository can pull from the remote repository.
